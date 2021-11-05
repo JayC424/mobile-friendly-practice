@@ -1,21 +1,8 @@
-body{
-    background-color: burlywood;}
-h1 {
-    background-color: blue;
-    border-style: double;
+*{
+  margin: 0;
+  background-color: blanchedalmond;
 }
-@media(max-width: 1024px) {
-  h1 {
-    background-color:cadetblue
-  }
+.test{
+  background-color: blueviolet;
+  color: aliceblue;
 }
-@media(max-width: 768px) {
-  h1 {
-    background-color:blueviolet;
-  }
-}
-@media(max-width: 480px) {
-    h1 {
-      background-color: lightblue;
-    }
-  }
